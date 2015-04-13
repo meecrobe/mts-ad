@@ -1,0 +1,88 @@
+// Colors
+
+$red: #ed1c25
+$white: #ffffff
+$text: #58595b
+
+
+// Fonts
+
+$font: 'TruthCYR', sans-serif
+
+@font-face
+  font-family: 'TruthCYR'
+  src: url('../fonts/TruthCYR-Regular.otf')
+  font-weight: normal
+  font-style: normal
+
+ // Base
+
+*,
+*:before,
+*:after
+  box-sizing: border-box
+
+html
+  font-size: 20px
+  color: $text
+body
+  font: 100%/1.5 $font
+  background-color: $red
+
+h1
+  font-size: 2em
+
+h2
+  font-size: 1.5em
+  margin-bottom: 30px
+  margin-top: 0
+
+ul
+  list-style-position: outside
+  li
+    font-size: 1.25em
+    color: $red
+    margin-bottom: 44px
+
+    span
+      color: $text
+
+.red
+  color: red
+
+.white
+  color: white
+
+.grey
+  color: $text
+
+p
+  color: $text
+  font-size: 1.25em
+  margin-bottom: 70px
+  margin-top: 0
+
+.container
+  width: 1500px
+  height: 1000px
+  position: absolute
+  top: 50%
+  left: 50%
+  margin-top: -500px
+  margin-left: -750px
+
+// Slides
+
+@include index
+@include slide-2
+@include slide-3
+@include slide-4
+@include slide-5
+@include slide-6
+@include slide-7
+@include slide-8
+@include slide-9
+@include slide-10
+@include slide-11
+
+
