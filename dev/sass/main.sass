@@ -48,7 +48,7 @@ a
 h1
   font-size: 2em
   font-weight: normal
-  margin-top: 0px
+  margin-top: 40px
   margin-bottom: 85px
 
 h2
@@ -119,7 +119,8 @@ hr
 .slider-wrapper
   width: 100%
   height: 100%
-  background: $red
+  background: $red url(../img/arrow.png) no-repeat
+  background-position: 3% 95%
   top: 0
   left: 0
   bottom: 0
@@ -129,6 +130,7 @@ hr
   z-index: 9998
   position: fixed
   display: none
+  cursor: pointer
   
 
   .popup-circle
@@ -147,6 +149,15 @@ hr
 
 .slide
   z-index: 9999
+  display: none
+
+.img-1,
+.img-2,
+.img-3,
+.img-4
+  display: block
+  position: absolute
+  
 
 
 
